@@ -1,0 +1,7 @@
+KNOWN BUGS
+=====================
+
+* If in fullscreen mode xmame won't run games in DGA fullscreen mode :(
+  Workaround is to set your X display to 800x600 and don't pass the
+  fullscreen option to Kade
+

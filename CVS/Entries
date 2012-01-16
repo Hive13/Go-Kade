@@ -1,0 +1,65 @@
+/AUTHORS/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/BUGS/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/COPYING/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/ChangeLog/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/Makefile/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/Makefile.am/1.3/Wed Jan 29 14:33:59 2003//
+/NEWS/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/README/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/README.Themes/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/SDL_rotozoom.c/1.1.1.1/Mon Jan 27 20:18:59 2003//
+/SDL_rotozoom.h/1.1.1.1/Mon Jan 27 20:18:59 2003//
+/acinclude.m4/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/aclocal.m4/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/config.h/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/config.h.in/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/config.log/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/config.status/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/configure/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/configure.in/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/confile.c/1.3/Wed Jan 29 15:34:35 2003//
+/export.mingw32/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/getopt.c/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/getopt.h/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/getopt1.c/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/gpl.texinfo/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/kade.6/1.2/Tue Jan 28 00:33:15 2003//
+/kade.blend/1.1.1.1/Mon Jan 27 20:18:59 2003//
+/kade.c/1.4/Wed Jan 29 15:34:35 2003//
+/kade.h/1.3/Wed Jan 29 15:34:35 2003//
+/kade.info/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/kade.lsm.in/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/kade.ogg/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/kade.spec.in/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/kade.texinfo/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/kaderc/1.3/Wed Jan 29 15:34:35 2003//
+/kaderc.7/1.2/Wed Jan 29 15:34:36 2003//
+/maketheme.sh/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/mame.c/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/menu.c/1.3/Wed Jan 29 15:34:36 2003//
+/mysql_kade.sql/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/sound.c/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/sql.c/1.1.1.1/Mon Jan 27 20:18:57 2003//
+/stamp-h.in/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/stamp-h1/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/stamp-h1.in/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/stamp-h2/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/stamp-h2.in/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/system.h/1.1.1.1/Mon Jan 27 20:18:56 2003//
+/tar.h/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/tarball.c/1.1.1.1/Mon Jan 27 20:19:01 2003//
+/xmalloc.c/1.1.1.1/Mon Jan 27 20:18:56 2003//
+D/.deps////
+D/.xvpics////
+D/art////
+D/themes////
+/install-sh/1.1/Sat Feb  1 00:20:36 2003//
+/config.guess/1.1/Sat Feb  1 00:21:44 2003//
+/config.sub/1.1/Sat Feb  1 00:21:26 2003//
+/mkinstalldirs/1.1/Sat Feb  1 00:03:02 2003//
+/INSTALL/1.2/Fri Feb 14 00:21:31 2003//
+/Makefile.in/1.2/Result of merge+Fri Feb 14 00:21:32 2003//
+/TODO/1.3/Fri Feb 14 00:21:32 2003//
+/kade.lsm/1.2/Result of merge+Fri Feb 14 00:21:33 2003//
+/stamp-h/1.1.1.1/Sat Feb  1 00:22:04 2003//
+/kade.spec/1.2/Fri Feb 14 00:21:33 2003//

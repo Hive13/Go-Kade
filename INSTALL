@@ -1,0 +1,23 @@
+KADE Quick Installation Guide
+=============================
+
+Needed Libraries to Compile:
+
+libsdl1.2
+libsdl-image1.2
+libsdl-ttf1.2
+libsd-mixer1.2
+(prob. libvorbis & libpng)
+
+For SQL support you also need
+libmysqlclient
+
+./configure
+make
+make install
+
+To enable SQL support
+./confgure --enable-mysql-active
+
+Yeah I know I should fill out this doc more but eh...
+

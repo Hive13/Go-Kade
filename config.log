@@ -1,0 +1,60 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:569: checking for a BSD compatible install
+configure:622: checking whether build environment is sane
+configure:679: checking whether make sets ${MAKE}
+configure:725: checking for working aclocal-1.4
+configure:738: checking for working autoconf
+configure:751: checking for working automake-1.4
+configure:764: checking for working autoheader
+configure:777: checking for working makeinfo
+configure:809: checking host system type
+configure:842: checking for a BSD compatible install
+configure:897: checking for gcc
+configure:1010: checking whether the C compiler (gcc  ) works
+configure:1026: gcc -o conftest    conftest.c  1>&5
+configure:1052: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1057: checking whether we are using GNU C
+configure:1085: checking whether gcc accepts -g
+configure:1119: checking how to run the C preprocessor
+configure:1199: checking for ANSI C header files
+configure:1306: checking for unistd.h
+configure:1306: checking for sys/param.h
+configure:1306: checking for sys/time.h
+configure:1306: checking for time.h
+configure:1306: checking for sys/mkdev.h
+configure:1306: checking for sys/sysmacros.h
+configure:1306: checking for string.h
+configure:1306: checking for memory.h
+configure:1306: checking for fcntl.h
+configure:1306: checking for dirent.h
+configure:1306: checking for sys/ndir.h
+configure:1306: checking for ndir.h
+configure:1306: checking for alloca.h
+configure:1306: checking for locale.h
+configure:1345: checking whether time.h and sys/time.h may both be included
+configure:1384: checking for utime.h
+configure:1422: checking for struct utimbuf
+configure:1471: checking whether sys/types.h defines makedev
+configure:1579: checking for working alloca.h
+configure:1612: checking for alloca
+configure:1811: checking whether struct tm is in sys/time.h or time.h
+configure:1845: checking for st_blocks in struct stat
+configure:1885: checking for dirent.h that defines DIR
+configure:1923: checking for opendir in -ldir
+configure:2006: checking whether closedir returns void
+configure:2045: checking for mkfifo
+configure:2098: checking for mknod
+configure:2154: checking target system type
+configure:2213: checking for sdl-config
+configure:2248: checking for SDL - version >= 1.2.3
+configure:2333: gcc -o conftest -g -O2 -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT   conftest.c  -L/usr/lib -lSDL 1>&5
+configure:2420: checking use mysql support
+configure:2450: checking for main in -lmysqlclient
+configure:2495: checking which mysql includes
+configure:2511: checking which mysql libs
+configure:2527: checking for main in -lSDL_image
+configure:2572: checking for main in -lSDL_ttf
+configure:2617: checking for main in -lSDL_mixer
+configure:2662: checking for main in -lz

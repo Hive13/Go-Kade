@@ -1,0 +1,62 @@
+# This is a sample .kaderc file
+# It is important to pay attention to spaces here.  It is picky.
+
+# Location of MAME
+#mame=/usr/local/games/xmame
+
+# MAME options
+#mame_args=-x11 1
+
+# MAME snapshot directories
+#mame_snaps=/usr/local/lib/xmame/snaps
+
+# TrueType Font file
+#ttf_font=/
+
+# Fullscreen (Could be 'Yes' or 'y' as well)
+#fullscreen=1
+
+# Disable/Enable Sound
+#sound=No
+
+# Background music to play.  The file needs to be in /usr/share/kade or the
+# Current directory.  Default: kade.ogg
+#bgmusic=kade.ogg
+
+# Directory that contains the theme balls
+#theme_dir=/usr/share/kade/themes
+
+# Theme
+#theme=default
+
+# Compression - Default is on.  Disable this and you need to set your
+# theme_dir to the UNcompressed theme directory
+#compression=No
+
+# Sets an alternate temp directory for the theme balls and stuff
+# Default: /tmp
+#tmpdir=/tmp
+
+## IF SQL is installed ##
+# Type of SQL server. Currently supported: (Mysql)  Defaults to Mysql.
+#dbtype=mysql
+
+# (Req.) Host of SQL server. Default: localhost
+#dbhost=localhost
+
+# (Opt) SQL port.
+#dbport=3306
+
+# (Req) User name that has access to the SQL database
+#dbuser=kade
+
+# (Req) Password for above user to access SQL.
+#dbpass=mypass
+
+# (Opt)Database name to store tables.  Default: kade
+#dbname=kade
+
+### End of SQL specific commands ###
+
+# It is possible to include other config files also
+#include myspecial.conf

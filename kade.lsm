@@ -1,0 +1,21 @@
+Begin3
+Title:		kade
+Version:	0.1.0
+Entered-date:	2009-06-28
+Description:	MAME frontend designed for cabinets
+		Generated automatically from kade.lsm.in by configure.
+		Please edit kade.lsm.in to fix the Keywords and
+		Primary-site entries, add several more lines of
+		description here if appropriate, and to delete these
+		instructions.
+Keywords:	[substitute your keywords here]
+Author: 	craig@academicunderground.org (Craig Smith)
+Maintained-by:	craig@academicunderground.org (Craig Smith)
+Primary-site:	metlab.unc.edu pub/Linux/apps/some/directory
+		31k kade-0.1.0.tar.gz
+		500  kade.lsm
+Alternate-site: 
+Original-site:  
+Platforms:      
+Copying-policy:	GNU copyleft
+End

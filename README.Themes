@@ -1,0 +1,73 @@
+Here is a Quick HOWTO on makeing themes for KADE
+================================================
+
+Kade prefers what it calls "theme balls".  These are simply a bunch of
+graphics and a theme.conf file wrapped up into a .tgz file.  Help on
+making your theme ball is discussed later.
+
+You theme.conf file uses the same syntax and the kaderc config file.
+
+MANDATORY FIELDS:
+----------------
+background=<background image file>
+loading=<loading image file>
+listx=<listbox X cordinates for the TEXT>
+listy=<listbox Y cordinates for the TEXT>
+snapx=<Snapshots X cords>
+snapy=<Snapshots Y cords>
+snapw=<Snapshots Width>
+snaph=<Snapshots Height>
+
+Optional FIELDS:
+----------------
+noimage=<Image to display when there isn't a snapshot>
+listbox=<A listbox image (if you background doesn't have a spot for one)>
+loading_alpha=<0-255 value for Alpha Blending of the Loading image>
+listbox_alpha=<0-255 value for Alpha Blending of the Listbox image>
+listw=<Maximum Width of the text within the listbox>
+listh=<Maximum height of the text within the listbox>
+listboxx=<X cords for listbox if using listbox= option>
+listboxy=<Y cords for listbox if using listbox= option>
+loadingx=<Force X cords for loading (Defualt is Centered)>
+loadingy=<Force Y cords for loading (Default is Centered)>
+totalx=<Displays a "Total Roms:" message at X cords>
+totaly=<Displays a "Total Roms:" message at Y cords>
+
+Note about Alpha Blending: 0 = Transparent && 255 = OPAQUE
+
+Order of Image Pasting to the Screen
+------------------------------------
+Here is the order that KADE posts the images to the screen. This info is
+helpfull when understanding KADEs layering of your theme.
+
+1> Background Image
+2> Snapshot
+3> Listbox (If Applicable)
+4> Listbox Text
+
+Making the theme ball
+---------------------
+Here are some Tips & Tricks for making your KADE theme ball.  First create
+a scratch directory.  Eg. mytheme.
+Append these two lines to your ~/.kaderc file.
+theme_dir=mytheme
+compression=No
+
+This will load up your theme with out messing the any compression.  This allows
+you to more easily tweak your image and design without have to make a tar ball
+each time.  (just remember to remove these when you are done :)
+
+You can either create a theme.conf from scratch or untar another theme ball
+(tar xfz <theme.ball)>  Simply dump your images here and modify your
+theme.conf to corrospond.
+
+Once you are satified with the layout, cd into your theme directory.  And
+create a tarball (tar cvf mytheme.tgz .)  Not you don't want to compress your
+directory into the themeball, just the files.  Once ready remove those lines
+from your kaderc file and you can distribute the .tgz to any KADE themes
+directory.
+
+Have Fun!
+
+--Craig
+

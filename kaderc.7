@@ -1,0 +1,111 @@
+.\"                              hey, Emacs:   -*- nroff -*-
+.\" kade is free software; you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; see the file COPYING.  If not, write to
+.\" the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+.\"
+.TH KADERC 7 "January 7, 2003"
+.\" Please update the above date whenever this man page is modified.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins (default)
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+kaderc \- Configuration script for the KADE front\-end
+.SH SYNOPSIS
+.B kaderc
+.SH DESCRIPTION
+\fBkaderc\fP is the main configuration file for the KADE front-end.
+.PP
+When \fBkade\fP loads it checks for the existence of the \fBkaderc\fP file
+in the following locaionts: /etc/default/kaderc and $HOME/.kaderc.
+.PP
+Alternate config files can be specified to \fBkade\fP with the -c or the
+--config option.
+.SH OPTIONS
+\fBkaderc\fP supports the following configuration options.  Note that
+a line starting with a '#' is considered a comment.  Syntax is:
+\<command\>=\<value\>.  No spaces!
+.TP
+.B mame
+Location of the mame executible. (Default: /usr/local/games/xmame)
+.TP
+.B mame_args
+Options to pass to mame. (Default: none) 
+.TP
+.B mame_snaps
+Location of mame snapshots. (Default: /usr/lib/games/xmame/snaps)
+.TP
+.B ttf_font
+Location of the .ttf file to use. (Default:/var/lib/defoma/gs.d/dirs/fonts/Comic_Sans_MS.ttf)
+.TP
+.B fullscreen
+Enable fullscreen (Default: No)
+.TP
+.B sound
+Enables/Disables sound (Default: Yes)
+.TP
+.B bgmusic
+Background music file (Default: kade.ogg)
+.TP
+.B theme_dir
+The directory that contains theme balls (Default: /usr/share/kade/themes)
+.TP
+.B theme
+What theme to use.  Must be a proper theme ball in theme_dir (Default: default)
+.TP
+.B compression
+Enables compression of theme balls. If set to No then theme_dir must point to
+an uncompressed theme directory. (Default: Yes)
+.TP
+.B tmpdir
+Allows you to specify an alternate temp directory to use for uncompressing
+theme balls
+.TP
+These commands are only valid if KADE was compiled with SQL support
+.TP
+.B dbtype
+Sets the database type.  Supported Types: MySQL
+.TP
+.B dbhost
+Where the database server resides. (Default: localhost)
+.TP
+.B dbport
+Port to connect to the database server. (Default: 3306)
+.TP
+.B dbuser
+The username to use to connect to the database. (Default: kade)
+.TP
+.B dbpass
+The password used to connect to the databse. (Default: NULL)
+.TP
+.B dbname
+The name of the database to store tables in. (Default: kade)
+.TP
+You can include other config files that are the same format using the
+config optoin of include.
+.TP
+.B include <kaderc>
+Included other kaderc files into your configuration.
+.TP
+.SH "SEE ALSO"
+.BR xmame (6), 
+.BR kade (6).
+.SH AUTHOR
+Craig Smith <craig@academicunderground.org>.

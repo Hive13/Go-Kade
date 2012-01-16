@@ -1,0 +1,18 @@
+Minor TODO list
+===============
+* - Haven't started
+/ - In progress
+
+* SQL - Add counter each time game runs, when & how long
+* have 2 scroll types (page & smooth)
+* THEME - add font colors
+* THEME - Add overlay image w/ alpha channel
+* Fix keyboard buffer with hotrod
+* Page down buttons
+* Music play list w/ buttons to change song
+* Menu sounds
+* SQL - Sort by most played or favorites
+* SQL - tools to upload other data into SQL
+* SQL - Make PHP pages to play with the data
+* Make debian and RPM packages
+* When recieving a HUP it should reread it's roms list

@@ -1,0 +1,14 @@
+PATH=/usr/i586-mingw32msvc/bin/:/usr/local/win32/build/:$PATH
+CC=i586-mingw32msvc-gcc
+LD=i586-mingw32msvc-ld
+AR=i586-mingw32msvc-ar
+NM=i586-mingw32msvc-nm
+RANLIB=i586-mingw32msvc-ranlib
+DLLTOOL=i586-mingw32msvc-dlltool
+OBJDUMP=i586-mingw32msvc-objdump
+STRIP=i586-mingw32msvc-strip
+STRIPPROG=i586-mingw32msvc-strip
+AS=i586-mingw32msvc-as
+LC_ALL=C
+SED=sed
+make -f Makefile.mingw32
